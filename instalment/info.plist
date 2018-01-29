@@ -26,7 +26,7 @@
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
-				<integer>68</integer>
+				<integer>102</integer>
 				<key>keyword</key>
 				<string>fq</string>
 				<key>queuedelaycustom</key>
@@ -40,11 +40,7 @@
 				<key>runningsubtext</key>
 				<string>正在计算中...</string>
 				<key>script</key>
-				<string>import sys
-
-query = "{query}"
-
-sys.stdout.write(query)</string>
+				<string>python entry.py {query}</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -54,7 +50,7 @@ sys.stdout.write(query)</string>
 				<key>title</key>
 				<string>请分别输入：总金额、分期数、年化收益率(%)、月分期费率(%，为空默认为0，即免息分期)</string>
 				<key>type</key>
-				<integer>3</integer>
+				<integer>0</integer>
 				<key>withspace</key>
 				<true/>
 			</dict>
