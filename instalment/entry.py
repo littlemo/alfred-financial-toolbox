@@ -84,3 +84,8 @@ def main(wf):
         largetext=largetext,
         copyright=largetext)
     wf.send_feedback()
+
+
+if __name__ == u'__main__':
+    wf = workflow.Workflow()
+    sys.exit(wf.run(main))
