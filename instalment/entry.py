@@ -49,3 +49,38 @@ def calc_retained_profits(data):
         profits, fee, profits - fee))
 
     return profits, fee, rc
+
+
+def main(wf):
+    argv_len = len(sys.argv)
+    if argv_len < 4 or argv_len > 5:
+        wf.add_item(
+            u'(金额/分期/收益率/月费率)：{}'.format(
+                ' '.join(sys.argv[1:])))
+        wf.send_feedback()
+
+    parser = init_args_parser()
+    p = parser.parse_args()
+
+    wf.add_item(
+        u'将{cost}元分{stages}期，年化收益率{returns}%，月分期费率{fee}%'.format(
+            cost=p.cost,
+            stages=p.stages,
+            returns=p.returns,
+            fee=p.fee))
+    profits, fee, rc = calc_retained_profits(p)
+    largetext = u'期数\t月初金额\t月末金额\t当月手续费'
+    for item in rc:
+        item_format = item
+        item_format[1] = round(item[1], 2)
+        item_format[2] = round(item[2], 2)
+        item_format[3] = round(item[3], 2) if item[3] else None
+        largetext += u'\n' + '\t'.join(item_format)
+    wf.add_item(
+        u'[结果]收益：{}，费用：{}，净收益：{}'.format(
+            profits, fee, profits - fee),
+        subtitle=u'可键入 ⌘L 查看放大的详细列表信息',
+        valid=True,
+        largetext=largetext,
+        copyright=largetext)
+    wf.send_feedback()
