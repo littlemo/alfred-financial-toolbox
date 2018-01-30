@@ -70,21 +70,25 @@ def main(wf):
         arg=title,
         largetext=title)
     profits, fee, rc = calc_retained_profits(p)
-    largetext = u'期数\t月初金额\t月末金额\t当月手续费'
-    for item in rc:
-        item_format = []
-        item_format.append(
-            unicode(item[0]) if item[0] is not None else '-')
-        item_format.append(unicode(round(item[1], 2)))
-        item_format.append(unicode(round(item[2], 2)))
-        item_format.append(
-            unicode(round(item[3], 2)) if item[3] is not None else '-')
-        largetext += u'\n' + u'\t'.join(item_format)
+    largetext = u''
+    for item in rc[:-1]:
+        largetext += u'{stage:02d}期\t月初：￥{balance_his:>10,.2f}\t' \
+            u'月末：￥{balance:>10,.2f}\t费用：￥{fee:>10,.2f}\n'.format(
+                stage=item[0],
+                balance_his=item[1],
+                balance=item[2],
+                fee=item[3]
+            )
+    cost_per_month = p.cost / p.stages
+    fee_per_month = p.cost * p.fee / 100
+    largetext += u'[月缴本金]：{:>10,.2f}\n'.format(cost_per_month)
+    largetext += u'[月缴费用]：{:>10,.2f}\n'.format(fee_per_month)
+    largetext += u'[最终收益]：{:>10,.2f}'.format(rc[-1][1])
     wf.add_item(
         u'[结果]收益：{:>6,.2f}，费用：{:>6,.2f}，净收益：{:>6,.2f}'.format(
             profits, fee, profits - fee),
         subtitle=u'月缴本金：{:>6,.2f}，月缴费用：{:>6,.2f}'.format(
-            p.cost / p.stages, p.cost * p.fee / 100),
+            cost_per_month, fee_per_month),
         valid=True,
         icon=workflow.ICON_NOTE,
         arg=largetext,
