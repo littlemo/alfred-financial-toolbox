@@ -86,6 +86,7 @@ def main(wf):
         subtitle=u'月缴本金：{:>6,.2f}，月缴费用：{:>6,.2f}'.format(
             p.cost / p.stages, p.cost * p.fee / 100),
         valid=True,
+        icon=workflow.ICON_NOTE,
         largetext=largetext,
         copytext=largetext)
     wf.send_feedback()
