@@ -45,9 +45,6 @@ def calc_retained_profits(data):
         # 偿还本金
         profits -= data.cost / data.stages
     rc.append([None, profits, profits, None])
-    print(u'收益：{}，费用：{}，净收益：{}'.format(
-        profits, fee, profits - fee))
-
     return profits, fee, rc
 
 
