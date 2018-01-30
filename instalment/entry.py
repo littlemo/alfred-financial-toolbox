@@ -86,7 +86,7 @@ def main(wf):
         subtitle=u'可键入 ⌘L 查看放大的详细列表信息',
         valid=True,
         largetext=largetext,
-        copyright=largetext)
+        copytext=largetext)
     wf.send_feedback()
 
 
