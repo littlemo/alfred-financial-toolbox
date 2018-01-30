@@ -37,7 +37,7 @@ def calc_retained_profits(data):
         # 月初余额
         profits_his = profits
         # 月末余额
-        profits *= (1 + data.returns / 100) / 12
+        profits *= (1 + data.returns / 100 / 12)
         # 分期手续费
         fee += fee_per_stages
         # 填充列表
