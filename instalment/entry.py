@@ -66,6 +66,8 @@ def main(wf):
         fee=p.fee)
     wf.add_item(
         title,
+        valid=False,
+        arg=title,
         largetext=title)
     profits, fee, rc = calc_retained_profits(p)
     largetext = u'期数\t月初金额\t月末金额\t当月手续费'
