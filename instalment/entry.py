@@ -48,6 +48,18 @@ def calc_retained_profits(data):
     return profits, fee, rc
 
 
+def get_subtitle_tucao(p):
+    '''获取入参回显的子标题吐槽信息'''
+    subtitle = u''
+    if p.cost >= 10000:
+        subtitle = u'大佬，您还缺pong友么？借钱不还的那种~~'
+    if p.stages >= 36:
+        subtitle = u'老铁，这么长是准备跑路么？先接济点儿再跑嘛~~'
+    if p.returns >= 10:
+        subtitle = u'大佬，这么高收益，您是怎么理财的？教教小的我吧(笑cry)~~'
+    return subtitle
+
+
 def main(wf):
     argv_len = len(sys.argv)
     if argv_len < 4 or argv_len > 5:
@@ -58,6 +70,7 @@ def main(wf):
 
     parser = init_args_parser()
     p = parser.parse_args()
+    subtitle = get_subtitle_tucao(p)
 
     title = u'将{cost}元分{stages}期，年化收益率{returns}%，月分期费率{fee}%'.format(
         cost=p.cost,
@@ -66,6 +79,7 @@ def main(wf):
         fee=p.fee)
     wf.add_item(
         title,
+        subtitle=subtitle,
         valid=False,
         arg=title,
         largetext=title)
