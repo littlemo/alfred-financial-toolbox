@@ -81,7 +81,7 @@ def main(wf):
             unicode(round(item[3], 2)) if item[3] is not None else '-')
         largetext += u'\n' + u'\t'.join(item_format)
     wf.add_item(
-        u'[结果]收益：{}，费用：{}，净收益：{}'.format(
+        u'[结果]收益：{:>6,.2f}，费用：{:>6,.2f}，净收益：{:>6,.2f}'.format(
             profits, fee, profits - fee),
         subtitle=u'可键入 ⌘L 查看放大的详细列表信息',
         valid=True,
