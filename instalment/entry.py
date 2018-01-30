@@ -72,11 +72,14 @@ def main(wf):
     profits, fee, rc = calc_retained_profits(p)
     largetext = u'期数\t月初金额\t月末金额\t当月手续费'
     for item in rc:
-        item_format = item
-        item_format[1] = round(item[1], 2)
-        item_format[2] = round(item[2], 2)
-        item_format[3] = round(item[3], 2) if item[3] else None
-        largetext += u'\n' + '\t'.join(item_format)
+        item_format = []
+        item_format.append(
+            unicode(item[0]) if item[0] is not None else '-')
+        item_format.append(unicode(round(item[1], 2)))
+        item_format.append(unicode(round(item[2], 2)))
+        item_format.append(
+            unicode(round(item[3], 2)) if item[3] is not None else '-')
+        largetext += u'\n' + u'\t'.join(item_format)
     wf.add_item(
         u'[结果]收益：{}，费用：{}，净收益：{}'.format(
             profits, fee, profits - fee),
