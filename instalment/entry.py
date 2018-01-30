@@ -87,6 +87,7 @@ def main(wf):
             p.cost / p.stages, p.cost * p.fee / 100),
         valid=True,
         icon=workflow.ICON_NOTE,
+        arg=largetext,
         largetext=largetext,
         copytext=largetext)
     wf.send_feedback()
