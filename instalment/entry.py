@@ -59,12 +59,14 @@ def main(wf):
     parser = init_args_parser()
     p = parser.parse_args()
 
+    title = u'将{cost}元分{stages}期，年化收益率{returns}%，月分期费率{fee}%'.format(
+        cost=p.cost,
+        stages=p.stages,
+        returns=p.returns,
+        fee=p.fee)
     wf.add_item(
-        u'将{cost}元分{stages}期，年化收益率{returns}%，月分期费率{fee}%'.format(
-            cost=p.cost,
-            stages=p.stages,
-            returns=p.returns,
-            fee=p.fee))
+        title,
+        largetext=title)
     profits, fee, rc = calc_retained_profits(p)
     largetext = u'期数\t月初金额\t月末金额\t当月手续费'
     for item in rc:
