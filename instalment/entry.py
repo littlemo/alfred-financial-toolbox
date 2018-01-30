@@ -83,7 +83,8 @@ def main(wf):
     wf.add_item(
         u'[结果]收益：{:>6,.2f}，费用：{:>6,.2f}，净收益：{:>6,.2f}'.format(
             profits, fee, profits - fee),
-        subtitle=u'可键入 ⌘L 查看放大的详细列表信息',
+        subtitle=u'月缴本金：{:>6,.2f}，月缴费用：{:>6,.2f}'.format(
+            p.cost / p.stages, p.cost * p.fee / 100),
         valid=True,
         largetext=largetext,
         copytext=largetext)
