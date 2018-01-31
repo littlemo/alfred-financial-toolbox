@@ -22,7 +22,24 @@
 ![1.png](https://github.com/littlemo/alfred-instalment/blob/master/screenshot/1.png)
 ![2.png](https://github.com/littlemo/alfred-instalment/blob/master/screenshot/2.png)
 ![3.png](https://github.com/littlemo/alfred-instalment/blob/master/screenshot/3.png)
-![4.png](https://github.com/littlemo/alfred-instalment/blob/master/screenshot/4.png)
+
+```
+01期 月初：￥  6,000.00  月末：￥  6,020.00  费用：￥     18.00
+02期 月初：￥  5,520.00  月末：￥  5,538.40  费用：￥     18.00
+03期 月初：￥  5,038.40  月末：￥  5,055.19  费用：￥     18.00
+04期 月初：￥  4,555.19  月末：￥  4,570.38  费用：￥     18.00
+05期 月初：￥  4,070.38  月末：￥  4,083.95  费用：￥     18.00
+06期 月初：￥  3,583.95  月末：￥  3,595.89  费用：￥     18.00
+07期 月初：￥  3,095.89  月末：￥  3,106.21  费用：￥     18.00
+08期 月初：￥  2,606.21  月末：￥  2,614.90  费用：￥     18.00
+09期 月初：￥  2,114.90  月末：￥  2,121.95  费用：￥     18.00
+10期 月初：￥  1,621.95  月末：￥  1,627.36  费用：￥     18.00
+11期 月初：￥  1,127.36  月末：￥  1,131.11  费用：￥     18.00
+12期 月初：￥    631.11  月末：￥    633.22  费用：￥     18.00
+[月缴本金]：    500.00
+[月缴费用]：     18.00
+[最终收益]：    133.22
+```
 
 ## 功能描述
 
