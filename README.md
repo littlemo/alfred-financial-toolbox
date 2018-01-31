@@ -47,6 +47,12 @@
 [最终收益]：    -82.78
 ```
 
+## 下载安装
+
+[![Download Here](https://img.shields.io/badge/Download-Here-brightgreen.svg)](https://github.com/littlemo/alfred-instalment/releases)
+
+选择最新的 `Release` 下载，并双击运行，即可完成安装
+
 ## 功能描述
 
 该 workflow 将计算指定金额在指定分期数下（以及可能存在的手续费），通过理财所获得的最终收益。并将分期详情列表输出到 `放大显示` 与 `系统剪贴板` 中。
