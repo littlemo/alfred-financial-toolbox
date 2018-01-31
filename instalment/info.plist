@@ -73,9 +73,9 @@
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>如：6000 12 4</string>
+				<string>金额、期数、年化收益率(%)、月分期费率(%，默认为0)，如：6000 12 4</string>
 				<key>title</key>
-				<string>请分别输入：总金额、分期数、年化收益率(%)、月分期费率(%，为空默认为0，即免息分期)</string>
+				<string>请分别输入以下参数</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
