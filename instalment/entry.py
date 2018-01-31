@@ -94,17 +94,21 @@ def main(wf):
                 balance=item[2],
                 fee=item[3]
             )
-    cost_per_month = p.cost / p.stages
-    fee_per_month = p.cost * p.fee / 100
-    largetext += u'[月缴本金]：{:>10,.2f}\n'.format(cost_per_month)
-    largetext += u'[月缴费用]：{:>10,.2f}\n'.format(fee_per_month)
+    cost_per_stage = p.cost / p.stages
+    fee_per_stage = p.cost * p.fee / 100
+    fee = fee_per_stage * p.stages
+    profit = rc[-1][1]
+    largetext += u'[月缴本金]：{:>10,.2f}\t[月缴费用]：{:>10,.2f}\n'.format(
+        cost_per_stage, fee_per_stage)
+    largetext += u'[理财收益]：{:>10,.2f}\t[分期成本]：{:>10,.2f}\n'.format(
+        profit, fee)
     largetext += u'[最终收益]：{:>10,.2f}'.format(
-        rc[-1][1] - fee_per_month * p.stages)
+        profit - fee)
     wf.add_item(
         u'[结果]收益：{:>6,.2f}，费用：{:>6,.2f}，净收益：{:>6,.2f}'.format(
             profits, fee, profits - fee),
         subtitle=u'月缴本金：{:>6,.2f}，月缴费用：{:>6,.2f}'.format(
-            cost_per_month, fee_per_month),
+            cost_per_stage, fee_per_stage),
         valid=True,
         icon=workflow.ICON_NOTE,
         arg=largetext,
