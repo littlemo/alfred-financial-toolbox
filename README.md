@@ -62,4 +62,4 @@
 
 ## 问题
 
-如果您在使用该镜像时遇到任何问题，请查看镜像源码的 [littlemo/alfred-instalment](https://github.com/littlemo/alfred-instalment) Repo，并在其中提交 Issues 给我，多谢您的帮助~~
+如果您在使用该应用时遇到任何问题，请在 GitHub 上查看本项目 [![alfred-instalment](https://img.shields.io/badge/Repo-alfred--instalment-brightgreen.svg)](https://github.com/littlemo/alfred-instalment) ，并在其中提交 Issues 给我，多谢您的帮助~~
