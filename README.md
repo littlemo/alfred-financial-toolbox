@@ -23,3 +23,11 @@
 调用用例： `fq 6000 12 4 0.3` ，计算 6000 元以 0.3% 月手续费分 12 期的情况下，进行预期年化 4% 的活期理财（毕竟是要按月还钱的），所得的最终收益。
 
 > 通过对结果条目触发 `enter` 事件，可放大显示详情信息，并同时输出到剪贴板中
+
+## License
+
+本项目采用 [![license](https://img.shields.io/github/license/littlemo/alfred-instalment.svg)](https://github.com/littlemo/alfred-instalment) 协议开源发布，请您在修改后维持开源发布，并为原作者额外署名，谢谢您的尊重
+
+## 问题
+
+如果您在使用该镜像时遇到任何问题，请查看镜像源码的 [littlemo/alfred-instalment](https://github.com/littlemo/alfred-instalment) Repo，并在其中提交 Issues 给我，多谢您的帮助~~
