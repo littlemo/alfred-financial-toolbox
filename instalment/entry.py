@@ -98,7 +98,8 @@ def main(wf):
     fee_per_month = p.cost * p.fee / 100
     largetext += u'[月缴本金]：{:>10,.2f}\n'.format(cost_per_month)
     largetext += u'[月缴费用]：{:>10,.2f}\n'.format(fee_per_month)
-    largetext += u'[最终收益]：{:>10,.2f}'.format(rc[-1][1])
+    largetext += u'[最终收益]：{:>10,.2f}'.format(
+        rc[-1][1] - fee_per_month * p.stages)
     wf.add_item(
         u'[结果]收益：{:>6,.2f}，费用：{:>6,.2f}，净收益：{:>6,.2f}'.format(
             profits, fee, profits - fee),
