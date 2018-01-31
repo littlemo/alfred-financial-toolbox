@@ -64,8 +64,9 @@ def main(wf):
     argv_len = len(sys.argv)
     if argv_len < 4 or argv_len > 5:
         wf.add_item(
-            u'(金额/分期/收益率/月费率)：{}'.format(
-                ' '.join(sys.argv[1:])))
+            u'[计算] {}'.format(
+                ' '.join(sys.argv[1:])),
+            subtitle=u'总金额、分期数、年化收益率(%)、月分期费率(%，默认为0)')
         wf.send_feedback()
 
     parser = init_args_parser()

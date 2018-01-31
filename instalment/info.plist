@@ -65,7 +65,7 @@
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
-				<string>正在计算中...</string>
+				<string></string>
 				<key>script</key>
 				<string>python entry.py {query}</string>
 				<key>scriptargtype</key>
@@ -73,9 +73,9 @@
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>金额、期数、年化收益率(%)、月分期费率(%，默认为0)，如：6000 12 4</string>
+				<string>总金额、分期数、年化收益率(%)、月分期费率(%，默认为0)</string>
 				<key>title</key>
-				<string>请分别输入以下参数</string>
+				<string>请分别输入以下参数，如：6000 12 4</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -96,7 +96,7 @@
 		<key>172E1B8E-53F0-4118-B3B0-C4EA772F8D05</key>
 		<dict>
 			<key>xpos</key>
-			<integer>390</integer>
+			<integer>360</integer>
 			<key>ypos</key>
 			<integer>200</integer>
 		</dict>
