@@ -32,6 +32,13 @@
 
 > 通过对结果条目触发 `enter` 事件，可放大显示详情信息，并同时输出到剪贴板中
 
+## 现存问题
+
+### Large Type 显示的对齐问题
+原因在于 Alfred 在 Large Type 显示时使用的字体是非等宽字体，故造成对齐困难，还未想到好的解决办法
+
+目前可通过输出到 __系统剪贴板__ 的方式，用户在第三方编辑器（等宽字体显示）中粘贴查看，效果会好很多
+
 ## License
 
 本项目采用 [![license](https://img.shields.io/github/license/littlemo/alfred-instalment.svg)](https://github.com/littlemo/alfred-instalment) 协议开源发布，请您在修改后维持开源发布，并为原作者额外署名，谢谢您的尊重
