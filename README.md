@@ -16,6 +16,14 @@
 [![license](https://img.shields.io/github/license/littlemo/alfred-instalment.svg)](https://github.com/littlemo/alfred-instalment)
 [![](https://img.shields.io/badge/bitcoin-donate-green.svg)](https://keybase.io/littlemo)
 
+## 使用截图
+
+![0.png](https://github.com/littlemo/alfred-instalment/blob/master/screenshot/0.png)
+![1.png](https://github.com/littlemo/alfred-instalment/blob/master/screenshot/1.png)
+![2.png](https://github.com/littlemo/alfred-instalment/blob/master/screenshot/2.png)
+![3.png](https://github.com/littlemo/alfred-instalment/blob/master/screenshot/3.png)
+![4.png](https://github.com/littlemo/alfred-instalment/blob/master/screenshot/4.png)
+
 ## 功能描述
 
 该 workflow 将计算指定金额在指定分期数下（以及可能存在的手续费），通过理财所获得的最终收益。并将分期详情列表输出到 `放大显示` 与 `系统剪贴板` 中。
