@@ -15,3 +15,11 @@
 [![Alfred3 Workflow](https://img.shields.io/badge/alfred3-workflow-brightgreen.svg)](https://www.alfredapp.com)
 [![license](https://img.shields.io/github/license/littlemo/alfred-instalment.svg)](https://github.com/littlemo/alfred-instalment)
 [![](https://img.shields.io/badge/bitcoin-donate-green.svg)](https://keybase.io/littlemo)
+
+## 功能描述
+
+该 workflow 将计算指定金额在指定分期数下（以及可能存在的手续费），通过理财所获得的最终收益。并将分期详情列表输出到 `放大显示` 与 `系统剪贴板` 中。
+
+调用用例： `fq 6000 12 4 0.3` ，计算 6000 元以 0.3% 月手续费分 12 期的情况下，进行预期年化 4% 的活期理财（毕竟是要按月还钱的），所得的最终收益。
+
+> 通过对结果条目触发 `enter` 事件，可放大显示详情信息，并同时输出到剪贴板中
