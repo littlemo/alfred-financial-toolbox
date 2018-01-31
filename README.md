@@ -9,6 +9,11 @@
 [![GitHub followers](https://img.shields.io/github/followers/littlemo.svg?label=github%20follow)](https://github.com/littlemo)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/littlemo/alfred-instalment.svg)](https://github.com/littlemo/alfred-instalment)
 [![GitHub stars](https://img.shields.io/github/stars/littlemo/alfred-instalment.svg?label=github%20stars)](https://github.com/littlemo/alfred-instalment)
+[![GitHub release](https://img.shields.io/github/release/littlemo/alfred-instalment.svg)](https://github.com/littlemo/alfred-instalment/releases)
+[![Github commits (since latest release)](https://img.shields.io/github/commits-since/littlemo/alfred-instalment/latest.svg)](https://github.com/littlemo/alfred-instalment)
+[![Github All Releases](https://img.shields.io/github/downloads/littlemo/alfred-instalment/total.svg)](https://github.com/littlemo/alfred-instalment/releases)
+[![Github All Releases (by Asset)](https://img.shields.io/github/downloads/littlemo/alfred-instalment/alfred-instalment.alfredworkflow.svg)](https://github.com/littlemo/alfred-instalment/releases)
+[![GitHub Release Date](https://img.shields.io/github/release-date/littlemo/alfred-instalment.svg)](https://github.com/littlemo/alfred-instalment/releases)
 
 ### 其他
 
