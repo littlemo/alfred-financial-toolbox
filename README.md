@@ -16,7 +16,7 @@
 [![license](https://img.shields.io/github/license/littlemo/alfred-instalment.svg)](https://github.com/littlemo/alfred-instalment)
 [![](https://img.shields.io/badge/bitcoin-donate-green.svg)](https://keybase.io/littlemo)
 
-## 使用截图
+## 使用展示
 
 ![0.png](https://github.com/littlemo/alfred-instalment/blob/master/screenshot/0.png)
 ![1.png](https://github.com/littlemo/alfred-instalment/blob/master/screenshot/1.png)
