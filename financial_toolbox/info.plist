@@ -50,11 +50,11 @@
 	<key>createdby</key>
 	<string>Moore</string>
 	<key>description</key>
-	<string>计算分期付款的到期累计收益</string>
+	<string>私房理财工具箱，包括信用卡分期理财、固收理财等计算工具</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>分期收益</string>
+	<string>理财工具箱</string>
 	<key>objects</key>
 	<array>
 		<dict>
