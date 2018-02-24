@@ -53,7 +53,7 @@ def main(wf):
     p = parser.parse_args()
     subtitle = get_subtitle_tucao(p)
 
-    title = u'{capital}元购买{days}天期，年化收益率{returns}%的固收理财'.format(
+    title = u'[固收理财] {capital}元 | {days}天 | 年化{returns}%'.format(
         capital=p.capital,
         days=p.days,
         returns=p.returns)
@@ -64,11 +64,11 @@ def main(wf):
         arg=title,
         largetext=title)
     profits = calc_profits(p)
-    result_title = u'[结果]收益：{:>6,.2f}'.format(profits)
+    result_title = u'[结果] 收益：{:>6,.4f}'.format(profits)
     wf.add_item(
         result_title,
-        subtitle=u'本金：{:>6,.2f}，天数：{:>6,.2f}'.format(
-            p.profits, p.days),
+        subtitle=u'本金：{:>6,.2f}，天数：{:>6,d}'.format(
+            p.capital, p.days),
         valid=False,
         icon=workflow.ICON_NOTE,
         arg=result_title,
