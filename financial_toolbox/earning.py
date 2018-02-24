@@ -76,6 +76,7 @@ def main(wf):
         valid=True,
         icon=workflow.ICON_NOTE,
         arg=result_copytext,
+        largetext=result_copytext,
         copytext=result_copytext)
     wf.send_feedback()
 
