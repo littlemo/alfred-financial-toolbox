@@ -1,4 +1,4 @@
-# alfred-instalment
+# alfred-financial-toolbox
 
 提供分期付款并用于固定收益率理财的最终收益计算
 
@@ -7,27 +7,27 @@
 ### GitHub
 
 [![GitHub followers](https://img.shields.io/github/followers/littlemo.svg?label=github%20follow)](https://github.com/littlemo)
-[![GitHub repo size in bytes](https://img.shields.io/github/repo-size/littlemo/alfred-instalment.svg)](https://github.com/littlemo/alfred-instalment)
-[![GitHub stars](https://img.shields.io/github/stars/littlemo/alfred-instalment.svg?label=github%20stars)](https://github.com/littlemo/alfred-instalment)
-[![GitHub release](https://img.shields.io/github/release/littlemo/alfred-instalment.svg)](https://github.com/littlemo/alfred-instalment/releases)
-[![Github commits (since latest release)](https://img.shields.io/github/commits-since/littlemo/alfred-instalment/latest.svg)](https://github.com/littlemo/alfred-instalment)
+[![GitHub repo size in bytes](https://img.shields.io/github/repo-size/littlemo/alfred-financial-toolbox.svg)](https://github.com/littlemo/alfred-financial-toolbox)
+[![GitHub stars](https://img.shields.io/github/stars/littlemo/alfred-financial-toolbox.svg?label=github%20stars)](https://github.com/littlemo/alfred-financial-toolbox)
+[![GitHub release](https://img.shields.io/github/release/littlemo/alfred-financial-toolbox.svg)](https://github.com/littlemo/alfred-financial-toolbox/releases)
+[![Github commits (since latest release)](https://img.shields.io/github/commits-since/littlemo/alfred-financial-toolbox/latest.svg)](https://github.com/littlemo/alfred-financial-toolbox)
 
-[![Github All Releases](https://img.shields.io/github/downloads/littlemo/alfred-instalment/total.svg)](https://github.com/littlemo/alfred-instalment/releases)
-[![Github All Releases (by Asset)](https://img.shields.io/github/downloads/littlemo/alfred-instalment/alfred-instalment.alfredworkflow.svg)](https://github.com/littlemo/alfred-instalment/releases)
-[![GitHub Release Date](https://img.shields.io/github/release-date/littlemo/alfred-instalment.svg)](https://github.com/littlemo/alfred-instalment/releases)
+[![Github All Releases](https://img.shields.io/github/downloads/littlemo/alfred-financial-toolbox/total.svg)](https://github.com/littlemo/alfred-financial-toolbox/releases)
+[![Github All Releases (by Asset)](https://img.shields.io/github/downloads/littlemo/alfred-financial-toolbox/alfred-financial-toolbox.alfredworkflow.svg)](https://github.com/littlemo/alfred-financial-toolbox/releases)
+[![GitHub Release Date](https://img.shields.io/github/release-date/littlemo/alfred-financial-toolbox.svg)](https://github.com/littlemo/alfred-financial-toolbox/releases)
 
 ### 其他
 
 [![Alfred3 Workflow](https://img.shields.io/badge/alfred3-workflow-brightgreen.svg)](https://www.alfredapp.com)
-[![license](https://img.shields.io/github/license/littlemo/alfred-instalment.svg)](https://github.com/littlemo/alfred-instalment)
+[![license](https://img.shields.io/github/license/littlemo/alfred-financial-toolbox.svg)](https://github.com/littlemo/alfred-financial-toolbox)
 [![](https://img.shields.io/badge/bitcoin-donate-green.svg)](https://keybase.io/littlemo)
 
 ## 使用展示
 
-![0.png](https://github.com/littlemo/alfred-instalment/blob/master/screenshot/0.png)
-![1.png](https://github.com/littlemo/alfred-instalment/blob/master/screenshot/1.png)
-![2.png](https://github.com/littlemo/alfred-instalment/blob/master/screenshot/2.png)
-![3.png](https://github.com/littlemo/alfred-instalment/blob/master/screenshot/3.png)
+![0.png](https://github.com/littlemo/alfred-financial-toolbox/blob/master/screenshot/0.png)
+![1.png](https://github.com/littlemo/alfred-financial-toolbox/blob/master/screenshot/1.png)
+![2.png](https://github.com/littlemo/alfred-financial-toolbox/blob/master/screenshot/2.png)
+![3.png](https://github.com/littlemo/alfred-financial-toolbox/blob/master/screenshot/3.png)
 
 ```
 01期 月初：￥  6,000.00  月末：￥  6,020.00  费用：￥     18.00
@@ -49,7 +49,7 @@
 
 ## 下载安装
 
-[![Download Here](https://img.shields.io/badge/Download-Here-brightgreen.svg)](https://github.com/littlemo/alfred-instalment/releases)
+[![Download Here](https://img.shields.io/badge/Download-Here-brightgreen.svg)](https://github.com/littlemo/alfred-financial-toolbox/releases)
 
 选择最新的 `Release` 下载，并双击运行，即可完成安装
 
@@ -70,8 +70,8 @@
 
 ## License
 
-本项目采用 [![license](https://img.shields.io/github/license/littlemo/alfred-instalment.svg)](https://github.com/littlemo/alfred-instalment) 协议开源发布，请您在修改后维持开源发布，并为原作者额外署名，谢谢您的尊重
+本项目采用 [![license](https://img.shields.io/github/license/littlemo/alfred-financial-toolbox.svg)](https://github.com/littlemo/alfred-financial-toolbox) 协议开源发布，请您在修改后维持开源发布，并为原作者额外署名，谢谢您的尊重
 
 ## 问题
 
-如果您在使用该应用时遇到任何问题，请在 GitHub 上查看本项目 [![alfred-instalment](https://img.shields.io/badge/Repo-alfred--instalment-brightgreen.svg)](https://github.com/littlemo/alfred-instalment) ，并在其中提交 Issues 给我，多谢您的帮助~~
+如果您在使用该应用时遇到任何问题，请在 GitHub 上查看本项目 [![alfred-financial-toolbox](https://img.shields.io/badge/Repo-alfred--financial-toolbox-brightgreen.svg)](https://github.com/littlemo/alfred-financial-toolbox) ，并在其中提交 Issues 给我，多谢您的帮助~~
