@@ -94,4 +94,4 @@
 
 ## 问题
 
-如果您在使用该应用时遇到任何问题，请在 GitHub 上查看本项目 [![alfred-financial-toolbox](https://img.shields.io/badge/Repo-alfred--financial-toolbox-brightgreen.svg)](https://github.com/littlemo/alfred-financial-toolbox) ，并在其中提交 Issues 给我，多谢您的帮助~~
+如果您在使用该应用时遇到任何问题，请在 GitHub 上查看本项目 [![alfred-financial-toolbox](https://img.shields.io/badge/Repo-alfred--financial--toolbox-brightgreen.svg)](https://github.com/littlemo/alfred-financial-toolbox) ，并在其中提交 Issues 给我，多谢您的帮助~~
