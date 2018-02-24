@@ -64,15 +64,19 @@ def main(wf):
         arg=title,
         largetext=title)
     profits = calc_profits(p)
-    result_title = u'[结果] 收益：{:>6,.4f}'.format(profits)
+    result_subtitle = u'本金：{:>6,.2f}，天数：{:>4,d}，年化：{:>4,.2f}%'.format(
+        p.capital, p.days, p.returns)
+    result_title = u'[结果] 收益：{profits:>6,.4f}'.format(
+        profits=profits)
+    result_copytext = u'{subtitle}，收益：{profits:>6,.4f}'.format(
+        subtitle=result_subtitle, profits=profits)
     wf.add_item(
         result_title,
-        subtitle=u'本金：{:>6,.2f}，天数：{:>6,d}'.format(
-            p.capital, p.days),
-        valid=False,
+        subtitle=result_subtitle,
+        valid=True,
         icon=workflow.ICON_NOTE,
-        arg=result_title,
-        copytext=result_title)
+        arg=result_copytext,
+        copytext=result_copytext)
     wf.send_feedback()
 
 
