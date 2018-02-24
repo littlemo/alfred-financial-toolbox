@@ -14,7 +14,17 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>9BEB2901-6B69-468F-9150-13B004E16311</string>
+				<string>10D702AF-86AC-440D-A1C5-7B4ECD50BFA3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>172E1B8E-53F0-4118-B3B0-C4EA772F8D05</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -173,23 +183,6 @@
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>autopaste</key>
-				<true/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-				<key>transient</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>9BEB2901-6B69-468F-9150-13B004E16311</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
 	</array>
 	<key>readme</key>
 	<string># 理财工具箱
@@ -223,21 +216,14 @@
 			<key>xpos</key>
 			<integer>120</integer>
 			<key>ypos</key>
-			<integer>510</integer>
+			<integer>340</integer>
 		</dict>
 		<key>172E1B8E-53F0-4118-B3B0-C4EA772F8D05</key>
 		<dict>
 			<key>xpos</key>
 			<integer>320</integer>
 			<key>ypos</key>
-			<integer>360</integer>
-		</dict>
-		<key>9BEB2901-6B69-468F-9150-13B004E16311</key>
-		<dict>
-			<key>xpos</key>
-			<integer>320</integer>
-			<key>ypos</key>
-			<integer>510</integer>
+			<integer>340</integer>
 		</dict>
 		<key>D4E79766-6F5C-4647-B92A-B08A0BF70766</key>
 		<dict>
