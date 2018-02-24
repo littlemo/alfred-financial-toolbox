@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>com.moorehy.instalment</string>
+	<string>com.moorehy.financial-toolbox</string>
 	<key>category</key>
 	<string>Tools</string>
 	<key>connections</key>
@@ -83,7 +83,7 @@
 				<key>runningsubtext</key>
 				<string></string>
 				<key>script</key>
-				<string>python entry.py {query}</string>
+				<string>python instalment.py {query}</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
