@@ -24,10 +24,12 @@
 
 ## 使用展示
 
-![0.png](https://github.com/littlemo/alfred-financial-toolbox/blob/master/screenshot/0.png)
-![1.png](https://github.com/littlemo/alfred-financial-toolbox/blob/master/screenshot/1.png)
-![2.png](https://github.com/littlemo/alfred-financial-toolbox/blob/master/screenshot/2.png)
-![3.png](https://github.com/littlemo/alfred-financial-toolbox/blob/master/screenshot/3.png)
+### 信用卡分期计算工具
+
+![0-0.png](https://github.com/littlemo/alfred-financial-toolbox/blob/master/screenshot/0-0.png)
+![0-1.png](https://github.com/littlemo/alfred-financial-toolbox/blob/master/screenshot/0-1.png)
+![0-2.png](https://github.com/littlemo/alfred-financial-toolbox/blob/master/screenshot/0-2.png)
+![0-3.png](https://github.com/littlemo/alfred-financial-toolbox/blob/master/screenshot/0-3.png)
 
 ```
 01期 月初：￥  6,000.00  月末：￥  6,020.00  费用：￥     18.00
@@ -46,6 +48,10 @@
 [理财收益]：    133.22   [分期成本]：    216.00
 [最终收益]：    -82.78
 ```
+
+### 固收理财计算工具
+
+![1-0.png](https://github.com/littlemo/alfred-financial-toolbox/blob/master/screenshot/1-0.png)
 
 ## 下载安装
 
