@@ -68,16 +68,16 @@ def main(wf):
         p.capital, p.days, p.returns)
     result_title = u'[结果] 收益：{profits:>6,.4f}'.format(
         profits=profits)
-    result_copytext = u'{subtitle}，收益：{profits:>6,.4f}'.format(
+    result_detail = u'{subtitle}，收益：{profits:>6,.4f}'.format(
         subtitle=result_subtitle, profits=profits)
     wf.add_item(
         result_title,
         subtitle=result_subtitle,
         valid=True,
         icon=workflow.ICON_NOTE,
-        arg=result_copytext,
-        largetext=result_copytext,
-        copytext=result_copytext)
+        arg=result_detail,
+        largetext=result_detail,
+        copytext=result_detail)
     wf.send_feedback()
 
 

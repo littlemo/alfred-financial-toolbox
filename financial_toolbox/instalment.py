@@ -85,9 +85,9 @@ def main(wf):
         arg=title,
         largetext=title)
     profits, fee, rc = calc_retained_profits(p)
-    largetext = u''
+    result_detail = u''
     for item in rc[:-1]:
-        largetext += u'{stage:02d}期\t月初：￥{balance_his:>10,.2f}\t' \
+        result_detail += u'{stage:02d}期\t月初：￥{balance_his:>10,.2f}\t' \
             u'月末：￥{balance:>10,.2f}\t费用：￥{fee:>10,.2f}\n'.format(
                 stage=item[0],
                 balance_his=item[1],
@@ -98,11 +98,11 @@ def main(wf):
     fee_per_stage = p.cost * p.fee / 100
     fee = fee_per_stage * p.stages
     profit = rc[-1][1]
-    largetext += u'[月缴本金]：{:>10,.2f}\t[月缴费用]：{:>10,.2f}\n'.format(
+    result_detail += u'[月缴本金]：{:>10,.2f}\t[月缴费用]：{:>10,.2f}\n'.format(
         cost_per_stage, fee_per_stage)
-    largetext += u'[理财收益]：{:>10,.2f}\t[分期成本]：{:>10,.2f}\n'.format(
+    result_detail += u'[理财收益]：{:>10,.2f}\t[分期成本]：{:>10,.2f}\n'.format(
         profit, fee)
-    largetext += u'[最终收益]：{:>10,.2f}'.format(
+    result_detail += u'[最终收益]：{:>10,.2f}'.format(
         profit - fee)
     wf.add_item(
         u'[结果]收益：{:>6,.2f}，费用：{:>6,.2f}，净收益：{:>6,.2f}'.format(
@@ -111,9 +111,9 @@ def main(wf):
             cost_per_stage, fee_per_stage),
         valid=True,
         icon=workflow.ICON_NOTE,
-        arg=largetext,
-        largetext=largetext,
-        copytext=largetext)
+        arg=result_detail,
+        largetext=result_detail,
+        copytext=result_detail)
     wf.send_feedback()
 
 
