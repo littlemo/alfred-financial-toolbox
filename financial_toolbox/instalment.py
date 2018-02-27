@@ -8,7 +8,7 @@ import workflow
 
 def init_args_parser():
     des = u'''用例：
-    ./entry.py 6000 12 4  # 将6000元分12期，年化收益率4%，月分期费率0%'''
+    ./instalment.py 6000 12 4  # 将6000元分12期，年化收益率4%，月分期费率0%'''
     parser = argparse.ArgumentParser(
         prog='instalment',
         description=des,
